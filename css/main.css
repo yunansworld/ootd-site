@@ -113,7 +113,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .section { float:left; width:1200px; }
 .section2 { float:left; width:800px; }
 .section3 { float:left; width:100%; }
-.header-bg { height:589px; padding-top:60px; background-image:url('../img/draw3.jpg'); background-size:contain; background-repeat: no-repeat; background-position: right;}
+.header-bg { height:589px; padding-top:60px; background-image:url('../img/draw4.png'); background-size:contain; background-repeat: no-repeat; background-position: right;}
 .top-bg { background-size:contain; background-repeat: no-repeat; background-position: right; }
 .top-bt { height:589px; margin-top:60px; background-size:contain; background-repeat: no-repeat; background-position: right; }
 .main-header { float:left; width:100%; height:689px; background-color:#e9e8ef;}
