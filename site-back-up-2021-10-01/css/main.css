@@ -113,7 +113,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .section { float:left; width:1200px; }
 .section2 { float:left; width:800px; }
 .section3 { float:left; width:100%; }
-.header-bg { height:589px; padding-top:60px; background-image:url('../img/ootd_head.gif'); background-size:contain; background-repeat: no-repeat; background-position: right;}
+.header-bg { height:589px; padding-top:60px; background-image:url('../img/umbro.png'); background-size:contain; background-repeat: no-repeat; background-position: right;}
 .top-bg { background-size:contain; background-repeat: no-repeat; background-position: right; }
 .top-bt { height:589px; margin-top:60px; background-size:contain; background-repeat: no-repeat; background-position: right; }
 .main-header { float:left; width:100%; height:689px; background-color:#e9e8ef;}
@@ -148,7 +148,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .right_section { position:relative; float:left; width:50%; height:570px; overflow:hidden; }
 .right_section2 { position:relative; float:left; width:50%; height:570px; overflow:hidden; }
 .main-title { float:left; font-family: 'GmarketSansBold' !important; text-align: center; font-size:35px; line-height: 1.75; letter-spacing: -0.1px; color: #690bf4; margin-bottom:15px; }
-.desc { float:left; width:100%; text-align: center; font-size: 24px; font-weight: 300; line-height: 1.4; letter-spacing: -0.63px; color: #333; }
+.desc { float:left; width:100%; text-align: center; font-size: 35px; font-weight: 300; line-height: 1.4; letter-spacing: -0.63px; color: #333; }
 .main-logo-ootd { width:113px; height:65px; }
 .main-logo-spec { width:100px; height:65px; }
 .main-logo-magazine { width:90px; height:65px; }
@@ -185,6 +185,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     .left_section2 { width:100%; height:570px}
     .right_section { width:100%; height:unset; }
     .right_section2 { width:100%; height:570px; }
-    .desc { margin-bottom:0px; font-size:18px; }
+    .desc { margin-bottom:0; font-size:25px; }
     .main-title { font-size:25px; }
 }
