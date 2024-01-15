@@ -1,255 +1,150 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>오오티디 - 패션 SNS</title>
+    <meta name="description" content="실시간 데일리룩・정보 공유와 FLEX, 패션앱 OOTD">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-        <!-- include 시작 -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- OG -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="오오티디 - 패션 SNS" />
+    <meta property="og:site_name" content="오오티디 - 패션 SNS" />
+    <meta property="og:description" content="실시간 데일리룩・정보 공유와 FLEX, 패션앱 OOTD" />
+    <meta property="og:image" content="https://ootdkorea.com/img/og_img.jpg" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta name="google-site-verification" content="1jAXd7Yt2zTnKjQ3cktzTi-zRHvsV8ocaRKVZCFHoCs" />
+    <meta name="naver-site-verification" content="3cc345493882edd27bebb5a670b250c551161889" />
 
-        <title>오오티디 - 패션 SNS</title>
-        <meta name="description" content="실시간 데일리룩・정보 공유와 FLEX, 패션앱 OOTD">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <!--        <meta name="viewport" content="width=1024, initial-scale=0.1">-->
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="icon" href="favicon.png" />
 
-        <!-- OG -->
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="오오티디 - 패션 SNS" />
-        <meta property="og:site_name" content="오오티디 - 패션 SNS" />
-        <meta property="og:description" content="실시간 데일리룩・정보 공유와 FLEX, 패션앱 OOTD" />
-        <meta property="og:image" content="https://ootdkorea.com/img/og_img.jpg" />
-        <meta property="og:locale" content="ko_KR" />
-        <meta name="google-site-verification" content="1jAXd7Yt2zTnKjQ3cktzTi-zRHvsV8ocaRKVZCFHoCs" />
-        <meta name="naver-site-verification" content="3cc345493882edd27bebb5a670b250c551161889" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css?v3">
 
-        <link rel="shortcut icon" href="favicon.png" />
-        <link rel="icon" href="favicon.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGQWNDDT1T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-        <script src="vendors/jquery/dist/jquery.min.js?v=1"></script>
+        gtag('config', 'G-QGQWNDDT1T');
+    </script>
+    <!-- 이미지 맵 반응형 -->
+    <script src="js/jquery_3.3.1_min.js"></script>
+    <script src="js/jquery.rwdImageMaps.min.js"></script>
 
-        <!-- Slick -->
-        <script src="js/slick.min.js?v=1"></script>
-        <link rel="stylesheet" href="css/slick.css?v=1">
+</head>
+<body style="overflow-x: hidden;">
+    <div class="wrapper">
+        <div class="ootd_wrapper">
 
-        <link rel="stylesheet" type="text/css" href="css/main.css?v=24">
-        <!-- include 완료 -->
+            <!-- header -->
+            <header>
+                <nav>
+                    <figure><img class="ootd_icon cursor" src="img/ootd_icon.png" alt="ootd_icon"></figure>
+                    <figure class="ga_btn_instagram" onclick="window.open('https://www.instagram.com/ootdkr_app/')"><img class="instagram_icon cursor" src="img/instagram_icon.png" alt="instagram_icon"></figure>
+                </nav>
+            </header>
+            <!-- //header end -->
 
-    </head>
-    <body>
-        <div class="top-header">
-            <div class="section center_h top-bg">
-                <div class="section3 center_h">
-                    <a href="#" onclick="$(window).scrollTop(0);"><img class="main-header-logo" width="90" height="30" src="img/logo.png" /></a>
-                    <a href="https://www.instagram.com/ootdkr_app/"><img class="main-insta-logo" src="img/insta_icon.png" /></a>
+            <!-- main_section1 -->
+            <section class="main_section1">
+                <figure>
+                    <img src="https://ootdkorea.com/img/100th_head.png">     
+					<ul>
+						<li><a href="https://ootdkorea.page.link/DqQt" target="_blank"><img src="img/ic-appstore.png"></a></li>
+						<li><a href="https://ootdkorea.page.link/DqQt" target="_blank"><img src="img/ic-google.png"></a></li>
+					</ul>
+                </figure>			
+            </section>
+            <!-- /main_section1 end -->
+
+            <!-- main_section2 -->
+            <section class="main_section2">
+                <ul class="menu_btn_box">
+                    <li class="active"><span>OOTD</span></li>
+                    <li><span>아이템 리뷰</span></li>
+                    <li><span>인기 아이템</span></li>
+                    <li><span>패션 랭킹</span></li>
+                    <li><span>사이즈 검색</span></li>
+                    <li><span>AI</span></li>
+                </ul>
+                <ul class="fade_in_banner">
+                    <li class="active"><img src="img/m1.png" alt="fade_in_img1"></li>
+                    <li><img src="img/m2.png" alt="fade_in_img2"></li>
+                    <li><img src="img/m3.png" alt="fade_in_img3"></li>
+                    <li><img src="img/m4.png" alt="fade_in_img4"></li>
+                    <li><img src="img/m5.png" alt="fade_in_img5"></li>
+                    <li><img src="img/m6.png" alt="fade_in_img5"></li>
+                </ul>
+            </section>
+            <!-- /main_section2 end -->
+
+            <!-- main_section3 -->
+            <section class="main_section3">
+                <div class="flex_wrapper">
+                    <ul class="bottom_info_box">
+                        <li>
+                            일반인 패션스냅
+                        </li>
+                        <li>
+                            패션 데이터
+                        </li>
+                        <li>
+                            앱 다운로드
+                        </li>
+                    </ul>
+                    <ul class="bottom_info_box">
+                        <li>
+                            120,000<span>개+</span>
+                        </li>
+                        <li>
+                            1,500,000<span>개+</span>
+                        </li>
+                        <li>
+                            160,000<span>회+</span>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+                <h3>
+                    2023년4월 기준
+                </h3>
+            </section>
+            <!-- main_section3 end -->
+
+            <!-- footer -->
+            <footer>
+                <h2>오오티디 (주) | 대표 이형진</h2>
+
+                <p>
+                    서울특별시 금천구 벚꽃로12길 15 지산IT벤처센터 402호
+                    문의: join@ootdkorea.com | 02-808-5572
+                </p>
+                <h4>
+                    <a href="term.html" target="_blank">이용약관</a><span style="margin-left:5px; margin-right:8px;">|</span><a href="policy.html" target="_blank">개인정보처리방침</a>
+                </h4>
+            </footer>
+            <!-- /footer -->
         </div>
-        <div class="header-for-pc"></div>
-        <div class="main-header">
-            <div class="section center_h header-bg">
-                <div class="section3 center_h">
-<!--                    <img class="main-header-logo" src="img/ootd_logo.png" />-->
-                    <!--                    <img class="main-insta-logo" src="img/insta_icon.png" />-->
+    </div>
 
-                    <img class="only-mobile header-image" src="img/umbro.png" style="width:100%;" alt=""/>
+    <script>
+        $(document).ready(function(){
+            $('img[usemap]').rwdImageMaps();
+        });
 
-                    <div class="w100">
-                        <div class="introduct_txt">
-                            오늘의 패션
-                        </div>
-                    </div>
-                    <div class="w100">
-                        <div class="introduct_ootd">
-                            OOTD
-                        </div>
-                    </div>
-                    <div class="store_download center_h-mobile">
-                        <a href="https://apps.apple.com/kr/app/ootd/id1475895684" target="_blank">
-                            <img class="down_btn" data-phone="apple" src="img/applestore_btn2.png" />
-                        </a>
-                        <a href="https://play.google.com/store/apps/details?id=com.ootdplatformkorea.korea&hl=ko" target="_blank">
-                            <img class="down_btn no_margin" data-phone="android" src="img/googleplay_btn2.png" style="margin-right:0px;" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="main-white">
-            <div class="section2 center_h">
-                <div class="left_section ">
-                    <img class="phone_frame" src="img/img_feedback.png" />
-                </div>
-                <div class="right_section">
-                    <div class="f center-pc center_h-mobile">
-                        <div class="main-title center_h">Style Feedback</div>
-                        <div class="desc">매일 올라오는 스타일을<br>평가해보세요</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="main-gray">
-            <div class="section2 center_h">
-                <div class="left_section">
-                    <div class="center-pc">
-                        <div class="main-title center_h only-pc">Style Ranking</div>
-                        <div class="desc only-pc">요즘 누가 옷 잘 입어?</div>
-                    </div>
-                </div>
-                <div class="right_section ">
-                    <img class="phone_frame center_h" src="img/img_ranking.png" />
-                </div>
-                <div class="left_section only-mobile">
-                    <div class="f center-pc center_h-mobile">
-                        <div class="main-title center_h">Style Ranking</div>
-                        <div class="desc">요즘 누가 옷 잘 입어?</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="main-white">
-            <div class="section2 center_h">
-                <div class="left_section">
-                     <div class="phone_imgs2 slider-slick center_h" style="top : 5;">
-                        <img class="phone_content" src="img/img_ootd_01.png" alt=""/>
-                        <img class="phone_content" src="img/img_ootd_02.png" alt=""/>
-                    </div>
-                    <img class="phone_frame center_h" src="img/phone_01.png" alt=""/>
-                </div>
-                <div class="right_section">
-                    <div class="f center-pc center_h-mobile">
-                        <div class="main-title center_h">OOTD</div>
-                        <div class="desc">현실 패피의 데일리룩 정보</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="main-gray">
-            <div class="section2 center_h">
-                <div class="left_section" style="position:relative">
-                    <div class="f center-pc">
-                        <div class="main-title center_h only-pc">SPEC Search</div>
-                        <div class="desc only-pc">나와 비슷한 체형을<br>검색해보세요</div>
-                    </div>
-                </div>
-                <div class="right_section">
-                    <div class="phone_imgs2 slider-slick center_h" style="top:15px;">
-                        <img class="phone_content" src="img/img_spec_01.png" alt=""/>
-                        <img class="phone_content" src="img/img_spec_02.png" alt=""/>
-                    </div>
-                    <img class="phone_frame center_h" src="img/phone_02.png"  alt=""/>
-                </div>
-                <div class="left_section only-mobile">
-                    <div class="f center-pc center_h-mobile">
-                        <div class="main-title center_h">SPEC Search</div>
-                        <div class="desc">나와 비슷한 체형을<br class="only-pc">검색해보세요</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="main-white">
-            <div class="section2 center_h">
-                <div class="left_section ">
-                    <img class="phone_frame center_h" src="img/phone_03.png" />
-                </div>
-                <div class="right_section">
-                    <div class="f center-pc">
-                        <div class="main-title center_h">Trend Magazine</div>
-                        <div class="desc">현실 패피들로 만들어진<br class="only-pc">리얼 트렌드</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="main-gray">
-            <div class="section center_h">
-                <div class="left_section">
-                    <div class="f center-pc">
-                        <div class="main-title center_h only-pc">HOTTEM</div>
-                        <div class="desc only-pc">최신 드로우, 래플, 직구, 할인<br>정보를 확인하세요</div>
-                    </div>
-                </div>
-                <div class="right_section ">
-                    <img class="phone_frame center_h" src="img/phone_04.png" />
-                </div>
-
-                <div class="left_section only-mobile">
-                    <div class="f center-pc center_h-mobile">
-                        <div class="main-title center_h">HOTTEM</div>
-                        <div class="desc">최신 드로우, 래플, 직구, 할인<br>정보를 확인하세요</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="main-white">
-            <div class="section2 center_h">
-                <div class="left_section ">
-                     <div class="phone_imgs2 slider-slick center_h">
-                        <img class="phone_content" src="img/img_sns_01.png"/>
-                        <img class="phone_content" src="img/img_sns_02.png"/>
-                    </div>
-                    <img class="phone_frame center_h" src="img/phone_05.png"/>
-                </div>
-
-                <div class="right_section">
-                    <div class="f center-pc center_h-mobile">
-                        <div class="main-title center_h">SNS</div>
-                        <div class="desc">취향저격 스타일의 오친을<br>팔로우하고 나만의 패션 네트워크를<br>만들어보세요!</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--        &lt;!&ndash; include 시작 &ndash;&gt;-->
-        <div class="footer">
-            <div class="section2 center_h p20-mobile">
-                <div class="footer_title"><b>오오티디(주)</b> | <b>대표 이형진</b></div>
-                <div class="footer_addr">
-                    서울특별시 금천구 벚꽃로12길 15 지산IT벤처센터 402호<br>
-                    <b>문의</b> join@ootdkorea.com | 02-808-5572
-                </div>
-                <div class="footer_policy">
-                    <a href="term.html" target="_blank">이용약관</a>
-                    |
-                    <a href="policy.html" target="_blank">개인정보처리방침</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBJ86BFDL5"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-172915164-1');
-        </script>
-        <!-- include 끝 -->
-
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $(window).scrollTop(0)
-                $(".down_btn").click(function(){
-                    gtag('event', '앱 다운로드 클릭', {'event_label':$(this).data("phone"), 'event_category': '버튼클릭'});
-                });
-                $('.slider-slick').slick({
-                    infinite: true,
-                    arrows: false,
-                    autoplay: true,
-                    autoplaySpeed: 2000
-                });
-
-                setTimeout(() => {
-                    $('.slick-track').css('min-height', '570px' );
-                    $('.slick-track').css('height', 'unset' );
-                }, 1000)
-            });
-        </script>
-    </body>
+        $(".menu_btn_box li").on("click",function(){
+            $(".menu_btn_box > li").removeClass("active");
+            $(this).addClass("active");
+            let menu_index = $(this).index();
+            let img_ht = $(".fade_in_banner > li img").eq(menu_index).height();
+            $(".fade_in_banner").height(img_ht);
+            $(".fade_in_banner > li").removeClass("active");
+            $(".fade_in_banner > li").eq(menu_index).addClass("active");
+        });
+    </script>
+</body>
 </html>

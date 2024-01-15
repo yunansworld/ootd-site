@@ -21,8 +21,17 @@
     <link rel="icon" href="favicon.png" />
 
     <!-- css -->
-    <link rel="stylesheet" href="css/style.css?v2">
+    <link rel="stylesheet" href="css/style.css?v3">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGQWNDDT1T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QGQWNDDT1T');
+    </script>
     <!-- 이미지 맵 반응형 -->
     <script src="js/jquery_3.3.1_min.js"></script>
     <script src="js/jquery.rwdImageMaps.min.js"></script>
@@ -36,7 +45,7 @@
             <header>
                 <nav>
                     <figure><img class="ootd_icon cursor" src="img/ootd_icon.png" alt="ootd_icon"></figure>
-                    <figure onclick="window.open('https://www.instagram.com/ootdkr_app/')"><img class="instagram_icon cursor" src="img/instagram_icon.png" alt="instagram_icon"></figure>
+                    <figure class="ga_btn_instagram" onclick="window.open('https://www.instagram.com/ootd__kr/')"><img class="instagram_icon cursor" src="img/instagram_icon.png" alt="instagram_icon"></figure>
                 </nav>
             </header>
             <!-- //header end -->
@@ -44,12 +53,12 @@
             <!-- main_section1 -->
             <section class="main_section1">
                 <figure>
-                    <img src="img/main_section_img_b_10.png" usemap="#image-map">
-                    <map name="image-map">
-                        <area target="_blank" alt="appstore" title="appstore" href="https://apps.apple.com/kr/app/%EC%98%A4%EC%98%A4%ED%8B%B0%EB%94%94-ootd/id1475895684" coords="86,756,342,842" shape="rect">
-                        <area target="_blank" alt="google" title="google" href="https://play.google.com/store/apps/details?id=com.ootdplatformkorea.korea&amp;hl=ko&amp;gl=US" coords="381,758,631,842" shape="rect">
-                    </map>
-                </figure>
+                    <img src="img/129th_head.png">     
+					<ul>
+						<li><a href="https://ootdkorea.page.link/DqQt" target="_blank"><img src="img/ic-appstore.png"></a></li>
+						<li><a href="https://ootdkorea.page.link/DqQt" target="_blank"><img src="img/ic-google.png"></a></li>
+					</ul>
+                </figure>			
             </section>
             <!-- /main_section1 end -->
 
@@ -57,10 +66,10 @@
             <section class="main_section2">
                 <ul class="menu_btn_box">
                     <li class="active"><span>OOTD</span></li>
-                    <li><span>스타일 랭킹</span></li>
-                    <li><span>비슷한 체형 패피</span></li>
-                    <li><span>SNS</span></li>
-                    <li><span>매거진</span></li>
+                    <li><span>아이템 리뷰</span></li>
+                    <li><span>인기 아이템</span></li>
+                    <li><span>패션 랭킹</span></li>
+                    <li><span>사이즈 검색</span></li>
                     <li><span>AI</span></li>
                 </ul>
                 <ul class="fade_in_banner">
@@ -90,18 +99,18 @@
                     </ul>
                     <ul class="bottom_info_box">
                         <li>
-                            30,000<span>개</span>
+                            120,000<span>개+</span>
                         </li>
                         <li>
-                            400,000<span>개</span>
+                            1,500,000<span>개+</span>
                         </li>
                         <li>
-                            42,000<span>회</span>
+                            160,000<span>회+</span>
                         </li>
                     </ul>
                 </div>
                 <h3>
-                    2021년 8월 기준
+                    2023년4월 기준
                 </h3>
             </section>
             <!-- main_section3 end -->
@@ -121,17 +130,6 @@
             <!-- /footer -->
         </div>
     </div>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBJ86BFDL5"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-172915164-1');
-    </script>
-    <!-- include 끝 -->
 
     <script>
         $(document).ready(function(){

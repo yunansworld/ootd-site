@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>오오티디 - 패션 SNS</title>
+    <meta name="description" content="실시간 데일리룩・정보 공유와 FLEX, 패션앱 OOTD">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- OG -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="오오티디 - 패션 SNS" />
+    <meta property="og:site_name" content="오오티디 - 패션 SNS" />
+    <meta property="og:description" content="실시간 데일리룩・정보 공유와 FLEX, 패션앱 OOTD" />
+    <meta property="og:image" content="https://ootdkorea.com/img/og_img.jpg" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta name="google-site-verification" content="1jAXd7Yt2zTnKjQ3cktzTi-zRHvsV8ocaRKVZCFHoCs" />
+    <meta name="naver-site-verification" content="3cc345493882edd27bebb5a670b250c551161889" />
+
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="icon" href="favicon.png" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css?v3">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGQWNDDT1T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QGQWNDDT1T');
+    </script>
+    <!-- 이미지 맵 반응형 -->
+    <script src="js/jquery_3.3.1_min.js"></script>
+    <script src="js/jquery.rwdImageMaps.min.js"></script>
+
+</head>
+<body style="overflow-x: hidden;">
+    <div class="wrapper">
+        <div class="ootd_wrapper">
+
+            <!-- header -->
+            <header>
+                <nav>
+                    <figure><img class="ootd_icon cursor" src="img/ootd_icon.png" alt="ootd_icon"></figure>
+                    <figure class="ga_btn_instagram" onclick="window.open('https://www.instagram.com/ootd__kr/')"><img class="instagram_icon cursor" src="img/instagram_icon.png" alt="instagram_icon"></figure>
+                </nav>
+            </header>
+            <!-- //header end -->
+
+            <!-- main_section1 -->
+            <section class="main_section1">
+                <figure>
+                    <img src="img/120th_head.png">     
+					<ul>
+						<li><a href="https://ootdkorea.page.link/DqQt" target="_blank"><img src="img/ic-appstore.png"></a></li>
+						<li><a href="https://ootdkorea.page.link/DqQt" target="_blank"><img src="img/ic-google.png"></a></li>
+					</ul>
+                </figure>			
+            </section>
+            <!-- /main_section1 end -->
+
+            <!-- main_section2 -->
+            <section class="main_section2">
+                <ul class="menu_btn_box">
+                    <li class="active"><span>OOTD</span></li>
+                    <li><span>아이템 리뷰</span></li>
+                    <li><span>인기 아이템</span></li>
+                    <li><span>패션 랭킹</span></li>
+                    <li><span>사이즈 검색</span></li>
+                    <li><span>AI</span></li>
+                </ul>
+                <ul class="fade_in_banner">
+                    <li class="active"><img src="img/m1.png" alt="fade_in_img1"></li>
+                    <li><img src="img/m2.png" alt="fade_in_img2"></li>
+                    <li><img src="img/m3.png" alt="fade_in_img3"></li>
+                    <li><img src="img/m4.png" alt="fade_in_img4"></li>
+                    <li><img src="img/m5.png" alt="fade_in_img5"></li>
+                    <li><img src="img/m6.png" alt="fade_in_img5"></li>
+                </ul>
+            </section>
+            <!-- /main_section2 end -->
+
+            <!-- main_section3 -->
+            <section class="main_section3">
+                <div class="flex_wrapper">
+                    <ul class="bottom_info_box">
+                        <li>
+                            일반인 패션스냅
+                        </li>
+                        <li>
+                            패션 데이터
+                        </li>
+                        <li>
+                            앱 다운로드
+                        </li>
+                    </ul>
+                    <ul class="bottom_info_box">
+                        <li>
+                            120,000<span>개+</span>
+                        </li>
+                        <li>
+                            1,500,000<span>개+</span>
+                        </li>
+                        <li>
+                            160,000<span>회+</span>
+                        </li>
+                    </ul>
+                </div>
+                <h3>
+                    2023년4월 기준
+                </h3>
+            </section>
+            <!-- main_section3 end -->
+
+            <!-- footer -->
+            <footer>
+                <h2>오오티디 (주) | 대표 이형진</h2>
+
+                <p>
+                    서울특별시 금천구 벚꽃로12길 15 지산IT벤처센터 402호
+                    문의: join@ootdkorea.com | 02-808-5572
+                </p>
+                <h4>
+                    <a href="term.html" target="_blank">이용약관</a><span style="margin-left:5px; margin-right:8px;">|</span><a href="policy.html" target="_blank">개인정보처리방침</a>
+                </h4>
+            </footer>
+            <!-- /footer -->
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('img[usemap]').rwdImageMaps();
+        });
+
+        $(".menu_btn_box li").on("click",function(){
+            $(".menu_btn_box > li").removeClass("active");
+            $(this).addClass("active");
+            let menu_index = $(this).index();
+            let img_ht = $(".fade_in_banner > li img").eq(menu_index).height();
+            $(".fade_in_banner").height(img_ht);
+            $(".fade_in_banner > li").removeClass("active");
+            $(".fade_in_banner > li").eq(menu_index).addClass("active");
+        });
+    </script>
+</body>
+</html>
