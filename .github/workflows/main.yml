@@ -19,5 +19,5 @@ jobs:
           key: ${{ secrets.REMOTE_PRIVATE_KEY }} # ec2 instance pem key
           port: "22" # 접속포트
           script: | # 실행할 스크립트
-            cd /ootd/ootd-site
+            cd ootd/ootd-site
             git pull origin main
